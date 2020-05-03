@@ -1,0 +1,23 @@
+{
+    "extensions.ignoreRecommendations": false,
+    "editor.fontSize": 16,
+    "window.zoomLevel": 0,
+    "git.autofetch": true,
+    "go.formatTool": "gofmt",
+    "workbench.colorTheme": "Dracula",
+    "editor.renderWhitespace": "all",
+    "explorer.confirmDelete": false,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/**/node_modules/**": true
+    },
+    "breadcrumbs.enabled": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false
+}
