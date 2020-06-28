@@ -1,5 +1,6 @@
 [user]
 	email = me@biancarosa.com.br
 	name = Bianca Rosa
+	signingkey = D852918EA2464D92
 [push]
 	default = simple
