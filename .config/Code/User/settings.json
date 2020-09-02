@@ -1,9 +1,10 @@
 {
     "extensions.ignoreRecommendations": false,
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "window.zoomLevel": 0,
     "git.autofetch": true,
     "go.formatTool": "gofmt",
+    "go.gopath": "/home/bianca/development/golang",
     "workbench.colorTheme": "Dracula",
     "editor.renderWhitespace": "all",
     "explorer.confirmDelete": false,
@@ -21,5 +22,6 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.jediEnabled": false,
     "python.languageServer": "Microsoft",
-    "git.enableCommitSigning": true
+    "git.enableCommitSigning": true,
+    "terminal.integrated.allowChords": false
 }
