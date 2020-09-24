@@ -1,7 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 #ZSH_TMUX_AUTOSTART="true"
-export GOPATH=/home/bianca/development/golang
+export GOPATH=$HOME/development/golang
 # export GOROOT=/usr/lib/go-1.9
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/opt/hub/bin
