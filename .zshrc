@@ -1,13 +1,13 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 #ZSH_TMUX_AUTOSTART="true"
-export GOPATH=/home/bianca/development/golang
+export GOPATH=$HOME/development/golang
 # export GOROOT=/usr/lib/go-1.9
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/opt/hub/bin
 export PATH=$PATH:$GOPATH/bin
 # Path to your oh-my-zsh installation.
-export ZSH=/home/bianca/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -104,7 +104,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="$HOME/.tfenv/bin:$PATH"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/bianca/google-cloud-sdk/path.zsh.inc' ]; then . '/home/bianca/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f "$HOME/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/home/bianca/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/bianca/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f "HOME/google-cloud-sdk/completion.zsh.inc" ]; then . "HOME/google-cloud-sdk/completion.zsh.inc'; fi
